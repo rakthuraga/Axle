@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  color: var(--black);
+}
+
+button, select {
+  all: unset;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  margin: 24px 26px 24px 117px;
+}
+
+.product-img-container {
+  background-color: var(--white);
+  border: 1px solid var(--detail-grey);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: clip;
+}
+
+.product-img {
+  border-radius: 15px;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  text-align: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.button:active {
+  scale: 0.95;
+  transition: scale 200ms linear;
+}
+
+.normal-size-btn {
+  padding: 12px 36px;
+}
+
+.small-btn {
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: scale 150ms linear;
+}
+
+.stretch-btn {
+  padding: 12px 0;
+  width: 100%;
+}
+
+.red-btn {
+  color: var(--white);
+  background-color: var(--brand-red);
+  transition: background-color 150ms linear;
+}
+
+.red-btn:hover {
+  background-color: var(--red-hover);
+  transition: background-color 150ms linear;
+}
+
+.red-outline-btn {
+  border: 1px solid var(--black);
+  border-radius: 10px;
+  transition: border 150ms linear, color 150ms linear;
+}
+
+.red-outline-btn:hover {
+  color: var(--brand-red);
+  border-color: var(--brand-red);
+  transition: border 150ms linear, color 150ms linear;
+}
+
+.green-outline-btn{
+  border: 1px solid var(--black);
+  transition: border 150ms linear, color 150ms linear;
+}
+
+.grey-outline-btn {
+  border: 1px solid var(--black);
+  transition: background-color 150ms linear;
+}
+
+.grey-outline-btn:hover {
+  background-color: #f0f0f0;
+  transition: background-color 150ms linear;
+}
+
+.dark-btn {
+  background-color: var(--black);
+  color: var(--white);
+  transition: background-color 150ms linear;
+}
+
+.dark-btn:hover {
+  background-color: var(--brand-red);
+  transition: background-color 150ms linear;
+}
+
+.green-complete-button {
+  border: 1px solid var(--green);
+  color: var(--green);
+  transition: border 150ms linear, color 150ms linear;
+}
+
+.green-complete-button:hover { 
+  border: 1px solid var(--red-hover); 
+  color: var(--red-hover);
+  transition: color 150ms linear, border-color 150ms linear;
+}
+
+.blue-grey-btn {
+  background-color: var(--light-blue-grey);
+  transition: background-color 150ms linear;
+}
+
+.blue-grey-btn:hover {
+  background-color: #C4C4D2;
+  transition: background-color 150ms linear;
+}
+
+.mobile-msg {
+  font-size: 28px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 95%;
+  margin: auto;
+}

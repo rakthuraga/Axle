@@ -1,0 +1,18 @@
+.nav {
+    background-color: var(--brand-red);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 36px 24px;
+}
+
+.logo {
+    width: 45px;
+    height: auto;
+    margin-bottom: 10px;
+}

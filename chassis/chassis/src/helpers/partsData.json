@@ -1,0 +1,98 @@
+[
+    {
+        "id": 2,
+        "name": "Engine Air Filter",
+        "number": "17220-5G0-A00",
+        "description": "Engine air filter for optimal performance"
+    },
+    {
+        "id": 3,
+        "name": "Windshield Wiper Blades",
+        "number": "76622-T1W-A01",
+        "description": "Windshield wiper blades for clear visibility"
+    },
+    {
+        "id": 5,
+        "name": "Timing Belt Kit",
+        "number": "06141-RLV-K00",
+        "description": "Timing belt kit for engine longevity"
+    },
+    {
+        "id": 6,
+        "name": "Spark Plugs",
+        "number": "12290-5R1-A01",
+        "description": "Spark plugs for efficient combustion"
+    },
+    {
+        "id": 7,
+        "name": "Fuel Filter",
+        "number": "16010-SJC-A10",
+        "description": "Fuel filter for clean fuel delivery"
+    },
+    {
+        "id": 8,
+        "name": "Cabin Air Filter",
+        "number": "80292-T5A-A01",
+        "description": "Cabin air filter for fresh interior air"
+    },
+    {
+        "id": 9,
+        "name": "Drive Belts",
+        "number": "31110-RBJ-003",
+        "description": "Drive belts for accessory operation"
+    },
+    {
+        "id": 10,
+        "name": "Oil Filter",
+        "number": "15400-PLM-A02",
+        "description": "Oil filter for engine protection"
+    },
+    {
+        "id": 11,
+        "name": "Radiator Fan Assembly",
+        "number": "19015-PZD-A00",
+        "description": "Radiator fan assembly for cooling efficiency"
+    },
+    {
+        "id": 13,
+        "name": "Brake Rotors",
+        "number": "45251-SZT-A10",
+        "description": "Brake rotors for confident braking"
+    },
+    {
+        "id": 23,
+        "name": "Rear Brake Shoes",
+        "number": "43153-S2A-010",
+        "description": "Rear brake shoes for parking brake function"
+    },
+    {
+        "id": 36,
+        "name": "Brake Master Cylinder",
+        "number": "46100-SH2-J02",
+        "description": "Brake master cylinder for hydraulic brake pressure"
+    },
+    {
+        "id": 42,
+        "name": "Brake Booster",
+        "number": "45300-SE0-A01",
+        "description": "Brake booster for power brake assist"
+    },
+    {
+        "id": 47,
+        "name": "Brake Proportioning Valve",
+        "number": "46210-SE0-G21",
+        "description": "Brake proportioning valve for balanced braking"
+    },
+    {
+        "id": 76,
+        "name": "PCV Valve",
+        "number": "17130-P2A-000",
+        "description": "PCV valve for crankcase ventilation"
+    },
+    {
+        "id": 94,
+        "name": "Rear Axle Seal",
+        "number": "91254-SE0-003",
+        "description": "Rear axle seal for differential oil sealing"
+    }
+]

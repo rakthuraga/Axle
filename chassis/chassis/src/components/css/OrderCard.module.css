@@ -1,0 +1,55 @@
+.row {
+    background-color: var(--white);
+    width: 100%;
+    border-radius: 20px;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.left {
+    display: flex;
+    gap: 24px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: end;
+}
+
+.img {
+    width: 200px;
+    height: 140px;
+}
+
+.orderNumber {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.orderDate, .deliveryDate {
+    font-size: 14px;
+}
+
+.orderStatus {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.details {
+    color: #0F84A9;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.processing {
+    color: #08772E;
+}
+
+.attention {
+    color: #D43C53;
+}

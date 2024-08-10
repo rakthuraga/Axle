@@ -1,0 +1,37 @@
+.stepper {
+    display: flex;
+    gap: 4px;
+    
+}
+
+.box {
+    color: var(--text-grey);
+    font-size: 14px;
+    text-align: center;
+    border: 0.5px solid var(--detail-grey);
+    border-radius: 8px;
+    padding: 3px 6px;
+    
+}
+
+.button {
+    width: 15px;
+    cursor: pointer;
+    transition: scale 150ms linear;
+}
+
+.button:active {
+    scale: 0.9;
+    transition: scale 150ms linear;
+}
+
+.input {
+    width: 25px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    
+}

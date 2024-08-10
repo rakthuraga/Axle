@@ -1,0 +1,14 @@
+.cardscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+li {
+    all: unset;
+}
+
+.noresults {
+    font-size: 20px;
+    font-weight: 500;
+}

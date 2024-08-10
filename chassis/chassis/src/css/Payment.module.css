@@ -1,0 +1,220 @@
+.detailscontainer {
+    margin: 0 24px;
+    display: flex;
+}
+
+.left {
+    border-right: 1px solid var(--detail-grey);
+    padding-right: 24px;
+    margin-right: 24px;
+    width: 60%;
+}
+
+.statement {
+    background-color: var(--white);
+    padding: 24px 36px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 85vh;
+    overflow: scroll;
+}
+
+.inputGroup {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 19px;
+    border-bottom: 1px solid var(--line-grey);
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--line-grey);
+    margin-bottom: 16px;
+}
+
+.horizontalLine {
+    width: 100%;
+    height: 1px;
+    background-color: var(--line-grey);
+}
+
+.subheading {
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 19px;
+    margin-bottom: 6px;
+}
+
+.detailContent{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    
+}
+
+.gap {
+    width: 40px; /* Adjust the width of the gap as needed */
+}
+
+.secondGap{
+    width: 80px;
+}
+
+.heightGap{
+    height: 24px;
+}
+
+
+.paragraph {
+    font-size: 15px;
+}
+
+.separate{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.shippingBox{
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid var(--Details, #9E9FAD);
+    padding-left: 45px;
+    transition: background-color 150ms linear;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 16px;
+    justify-content: space-between; 
+    align-self: stretch;
+    margin-bottom: 10px;
+}
+
+.shippingText{
+    color: var(--almost-black, #43484E);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.checkBox {
+    width: 20px; /* Set the width of the checkbox */
+    height: 20px; /* Set the height of the checkbox */
+    border-radius: 5px;
+    border: 1px solid var(--Details, #9E9FAD);
+    align-items: center;
+     /* Adjust the spacing between checkbox and text */
+}
+
+.summary {
+    padding: 0 36px 36px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.notificationtitle {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartitem {
+    width: 70%;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.blankbtn {
+    font-size: 14px;
+    padding: 4px;
+    transition: font-weight 150ms linear;
+}
+
+.blankbtn:hover {
+    font-weight: 500;
+    transition: font-weight 150ms linear;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.right {
+    width: 40%;
+}
+
+.attention {
+    color: var(--red-muted);
+}
+
+.input{
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid var(--detail-grey);
+    transition: border-color 150ms linear;
+}
+
+.input:focus {
+    border-color: var(--black);
+    transition: border-color 150ms linear;
+}

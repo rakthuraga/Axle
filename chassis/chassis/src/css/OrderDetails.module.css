@@ -1,0 +1,139 @@
+.detailscontainer {
+    margin: 0 24px;
+    display: flex;
+}
+
+.left {
+    border-right: 1px solid var(--detail-grey);
+    padding-right: 24px;
+    margin-right: 24px;
+    width: 60%;
+}
+
+.statement {
+    background-color: var(--white);
+    padding: 24px 36px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 85vh;
+    overflow: scroll;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--line-grey);
+    margin-bottom: 16px;
+}
+
+.subheading {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.paragraph {
+    font-size: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.notificationtitle {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartitem {
+    width: 70%;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.blankbtn {
+    font-size: 14px;
+    padding: 4px;
+    transition: font-weight 150ms linear;
+}
+
+.blankbtn:hover {
+    font-weight: 500;
+    transition: font-weight 150ms linear;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.right {
+    width: 40%;
+}
+
+.summary {
+    padding: 0 36px 36px;
+    width: 100%;
+}
+
+.attention {
+    color: var(--red-muted);
+}
+
+.processing {
+    color: var(--green);
+}
+
+.confirmedTitle { 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

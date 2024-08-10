@@ -1,0 +1,141 @@
+.checkout {
+    display: flex;
+    gap: 8px;
+    margin: 24px 0;
+}
+
+.cart {
+    width: 65%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.allitems {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    height: 73vh;
+    overflow: scroll;
+}
+
+.vendor {
+    background-color: var(--white);
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.vendorname {
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    border-bottom: 1px solid var(--line-grey);
+    border-radius: 10px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.summary {
+    padding: 0 36px 36px;
+    width: 35%;
+}
+
+.header2 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 24px;
+    width: 100%;
+}
+
+.details {
+    padding: 24px;
+    border-top: 1px solid var(--line-grey);
+    border-bottom: 1px solid var(--line-grey);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.detailline {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.detailname, .price {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.detailmore {
+    padding: 8px 30px 0;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--line-grey);
+    padding: 16px 0;
+    width: 100%;
+}
+
+.totaltext, .totalprice {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.buttons {
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.none {
+    margin: 24px 0;
+}
+
+.emptycontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    width: 40%;
+    height: 55vh;
+    margin: auto;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.msg {
+    font-size: 32px;
+    font-weight: 500;
+}

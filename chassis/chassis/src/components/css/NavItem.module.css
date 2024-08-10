@@ -1,0 +1,21 @@
+.navitem {
+    padding: 13px;
+    border-radius: 5px;
+    padding: 13px;
+    transition: background-color 150ms linear;
+}
+
+.navitem:hover {
+    background-color: #E94059;
+    transition: background-color 150ms linear;
+}
+
+.navactive {
+    background-color: #E94059;
+    transition: background-color 150ms linear;
+}
+
+.navitem img {
+    display: flex;
+    justify-content: center;
+}

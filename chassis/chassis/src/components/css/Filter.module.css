@@ -1,0 +1,101 @@
+.background {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 1;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: auto 15%;
+    z-index: 1;
+}
+
+.filterbox {
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.headerbox, .footer {
+    padding: 24px 36px;
+}
+
+.headerbox {
+    border-bottom: 1px solid var(--line-grey);
+}
+
+.header {
+    position: relative;
+}
+
+.footer {
+    border-top: 1px solid var(--line-grey);
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.xbtn {
+    position: absolute;
+    top: 9.5px;
+    right: 0;
+}
+
+.form {
+    margin: 0 36px;
+    height: 70vh;
+    overflow: scroll;
+}
+
+.formcontent {
+    padding: 36px 0;
+}
+
+.formheader {
+    margin-bottom: 24px;
+}
+
+.formtitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.formsubtitle {
+    font-size: 14px;
+}
+
+.carform {
+    display: flex;
+    gap: 24px;
+    align-items: flex-end;
+}
+
+.formgroup {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.formlabel {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.details, .categories {
+    border-bottom: 1px solid var(--line-grey);
+}

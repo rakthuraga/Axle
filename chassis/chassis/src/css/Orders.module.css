@@ -1,0 +1,15 @@
+.page {
+    margin-top: 24px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.orders {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 24px 0;
+}
